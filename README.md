@@ -1,3 +1,5 @@
+# If you need some help/issue/request, Don't hesitate to drop a mail on vmonga02@gmail.com
+
 # MicroService-Demo
 
 # Movie Microservice
