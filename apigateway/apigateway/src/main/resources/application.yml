@@ -1,0 +1,18 @@
+server:
+  port: 9190
+eureka:
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: MOVIES
+        uri: lb://MOVIES
+        predicates:
+          - Path=/movies/**
