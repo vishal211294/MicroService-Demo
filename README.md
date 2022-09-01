@@ -1,6 +1,7 @@
 # MicroService-Demo
 
 # Movie Microservice
+  
   # Implements
     1. Eureka Client.
     2. Rest API.
@@ -26,14 +27,14 @@
     6. API Logging.
     7. Dockers/Kubernities.
   
-  # Service Discovery
-    1. Add Eureka service discovery on port 8761. (will also try with some other port in future.)
+# Service Discovery
+  1. Add Eureka service discovery on port 8761. (will also try with some other port in future.)
   
-   # API Gateway
-    1. Add Spring Cloud API Gateway to build and route the url to their respective api gateway.
-    
-    # What NexT
-      1. Fault tolarances.
-      2. Fallback Methods.
-      3. Logging.
-      4. Security.
+# API Gateway
+  1. Add Spring Cloud API Gateway to build and route the url to their respective api gateway.
+  
+  # What NexT
+    1. Fault tolarances.
+    2. Fallback Methods.
+    3. Logging.
+    4. Security.
